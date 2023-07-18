@@ -10,6 +10,9 @@
 
 }
 
+.introducao img {
+  border-radius: 200px;
+}
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
@@ -28,6 +31,7 @@
   top: -15px;
   left: -40px;
   z-index: -1;
+  
 }
 
 .introducao p {
@@ -63,7 +67,7 @@
   }
   .introducao {
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: center; 
 
   }
   .introducao h1::before {
