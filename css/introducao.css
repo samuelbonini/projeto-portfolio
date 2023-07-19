@@ -11,7 +11,8 @@
 }
 
 .introducao img {
-  border-radius: 200px;
+  border-radius: 6px;
+
 }
 .introducao h1 {
   font-size: 4.5rem;
@@ -37,6 +38,7 @@
 .introducao p {
   font-size: 1.5rem;
   color: #2b2a2a;
+  position: relative;
 }
 
 @media (max-width: 1000px) {
@@ -48,19 +50,44 @@
 @media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap:30px;
   }
-  .introducao h1 {
-    font-size: 2rem;
-  }
+
   .introducao h1::before {
     width: 30px;
     height: 10px;
     left: 0px;
   }
+
+  .introducao img {
+    width: 250px;
+    height: 280px;
+    height: auto;
+
+  }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 670px) {
+  
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+  }
+
+  .introducao h1 {
+    font-size: 2.3rem;
+  }
+  .introducao p {
+    bottom: 20px;
+  }
+
+  .introducao img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 525px) {
 
   .introducao img {
     display: none;
