@@ -18,6 +18,7 @@
   color: #cccccc;
 }
 
+
 .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
@@ -36,6 +37,13 @@ color: white;
   color: #8f8f8f;
 }
 
+#contatos-footer {
+  grid-column: 1 / -1;
+  font-size: 2rem;
+  color: #8f8f8f;
+}
+
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
@@ -43,6 +51,12 @@ color: white;
   }
 
   .footer-contato li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  #contatos-footer {
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
   }
 }
+
