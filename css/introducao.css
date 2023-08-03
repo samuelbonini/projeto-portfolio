@@ -12,14 +12,13 @@
 
 .introducao img {
   border-radius: 6px;
-
 }
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
-  color: #141414;
+  color: var(--texto1);
 }
 
 .introducao h1::before {
@@ -28,16 +27,18 @@
   width: 130px;
   height: 100px;
   background: url(../html/img/detalhe.svg) no-repeat center;
+  opacity: 60%;
   position: absolute;
   top: -15px;
   left: -40px;
   z-index: -1;
   
+  
 }
 
 .introducao p {
   font-size: 1.5rem;
-  color: #2b2a2a;
+  color: var(--texto2claro);
   position: relative;
 }
 

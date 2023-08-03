@@ -1,11 +1,40 @@
-body {
-  font-family: 'Fira Sans', Arial, sans-serif;
-  margin: 0px;
-  color: #141414;
+:root {
+  --texto1: #141414;
+  --texto2claro: #2b2a2a;
+  --experienciaG: #919191;
+  --fundoexperiencia: #f5f5f5;
+  --fundobody: white;
+  --fundotextoexp: #919191;
+  --header: #a4e97750;
+  --img: src="html/img/marcasam.svg";
   
 }
 
-h1, h2, h3, p {
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundobody: #1d1d1d;
+    --texto1: #f5f5f5;
+    --texto2claro: #bdeea7;
+    --experienciaG: #f5f5f5;
+    --fundotextoexp: #919191;
+    --fundoexperiencia: #000000;
+    --header: #383838;
+    --img: src="html/img/marcasamclaro.svg";
+   
+  }
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: var(--texto1);
+  background-color: var(--fundobody);
+}
+
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
@@ -34,5 +63,5 @@ img {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
-  } 
+  }
 }
