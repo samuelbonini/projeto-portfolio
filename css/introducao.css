@@ -10,9 +10,10 @@
 
 }
 
-.introducao img {
-  border-radius: 6px;
+.introducao > img {
+  position: relative;
 }
+
 .introducao h1 {
   font-size: 4.5rem;
   line-height: 1.125;
