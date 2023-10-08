@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel - Desenvolvedor e Designer</title>
+
   <meta name="description" content="Projeto criado por Samuel Bonini como trabalho para o curso de front-end como exemplo de portfólio.">
+
   <link rel="icon" href="html/img/favicon teste 2.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +18,7 @@
 
 
 </head>
+
 <body>
   <header class="header">
     <img class="imagem1" src="html/img/marcasam.svg" alt="Samuel">
@@ -28,8 +32,8 @@
   </header>
 
   <main class="introducao">
-    <img class="imgsam" src="html/img/NOVA-FOTO.png" alt="Samuel" width="335,5" height="407,5">
-    <div>
+    <img class="imgsam" data-anime="200" src="html/img/NOVA-FOTO.png" alt="Samuel" width="335,5" height="407,5">
+    <div data-anime="400">
       <h1>Desenvolvedor <br> Front End</h1>
       <p>Localizado no Rio Grande do Sul</p>
     </div>
@@ -45,11 +49,14 @@
         <span class="empresa-ano">2021-2022</span>
         <h3 class="empresa-titulo">Sericell</h3>
         <span class="empresa-titulo">Auxiliar Administrativo</span>
-        <p class="empresa-texto">Na Sericell, no cargo de Auxiliar Administrativo fiz a função de plotagem, instalação de peliculas, acabamento e outras funções que envolvem essa área.</p>
+        <p class="empresa-texto">Na Sericell, como Auxiliar Administrativo, destaquei-me por coordenar a plotagem com precisão, aperfeiçoando a instalação de películas e assegurando padrões de qualidade. Contribuí ativamente para a equipe de acabamento e também gerenciei estoque e manutenção de equipamentos. Essa experiência me proporcionou habilidades organizacionais valiosas e eficiência em multitarefas.</p>
         <ul class="empresa-habilidades">
           <li>Plotagem</li>
-          <li>Atendimento ao cliente</li>
-          <li>Trabalho em equipe</li>
+          <li>Atendimento ao Cliente</li>
+          <li>Trabalho em Equipe</li>
+          <li>Gestão de Recursos</li>
+          <li>Habilidades Organizacionais</li>
+          <li>Eficiência</li>
         </ul>
       </div>
 
@@ -57,11 +64,11 @@
         <span class="empresa-ano">2022-Atual</span>
         <h3 class="empresa-titulo">Sericell</h3>
         <span class="empresa-titulo">Impressor Digital</span>
-        <p class="empresa-texto">Na Sericell, no cargo de Impressor Digital fiz a função de administrar a máquina de impressão digital de adesivo, lona e toldo, além da máquina "router" e também na maquina de corte a Laser, mais conhecida como "CNC Router Laser".</p>
+        <p class="empresa-texto">No cargo de Impressor Digital na Sericell, fui responsável pela administração de várias máquinas de produção, incluindo impressoras digitais de adesivos, lonas e toldos, máquinas 'router' para cortes precisos, CNC Router Laser para gravação e corte, bem como máquina de impressão UV. Minha função abrangeu a operação eficiente dessas máquinas para garantir a qualidade e a entrega pontual dos produtos.</p>
         <ul class="empresa-habilidades">
           <li>CorelDraw</li>
-          <li>Manuseio máquina router</li>
-          <li>Comunicação</li>
+          <li>Operação de Máquinas Específicas</li>
+          <li>Comunicação Eficaz</li>
           <li>Organização</li>
           <li>Design</li>
         </ul>
@@ -151,6 +158,8 @@
     </div>
   </footer>
 
+  <script src="plugins/simple-anime.js"></script>
+  <script src="JS/script.js"></script>
 </body>
 
 </html>
