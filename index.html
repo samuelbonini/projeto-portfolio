@@ -5,9 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuel - Desenvolvedor e Designer</title>
+
   <meta name="description" content="Projeto criado por Samuel Bonini como trabalho para o curso de front-end como exemplo de portfólio.">
+
   <link rel="icon" href="html/img/favicon teste 2.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +18,7 @@
 
 
 </head>
+
 <body>
   <header class="header">
     <img class="imagem1" src="html/img/marcasam.svg" alt="Samuel">
@@ -28,8 +32,8 @@
   </header>
 
   <main class="introducao">
-    <img class="imgsam" src="html/img/NOVA-FOTO.png" alt="Samuel" width="335,5" height="407,5">
-    <div>
+    <img class="imgsam" data-anime="200" src="html/img/NOVA-FOTO.png" alt="Samuel" width="335,5" height="407,5">
+    <div data-anime="400">
       <h1>Desenvolvedor <br> Front End</h1>
       <p>Localizado no Rio Grande do Sul</p>
     </div>
@@ -154,6 +158,8 @@
     </div>
   </footer>
 
+  <script src="plugins/simple-anime.js"></script>
+  <script src="JS/script.js"></script>
 </body>
 
 </html>
